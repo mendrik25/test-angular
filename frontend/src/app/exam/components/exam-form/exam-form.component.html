@@ -1,0 +1,122 @@
+<div class="min-h-screen flex items-center justify-center bg-gray-100 p-4">
+  <div class="w-full max-w-lg bg-white rounded-2xl shadow-lg p-8">
+    <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">
+      Organiser un examen
+    </h2>
+
+    <form [formGroup]="examForm" class="space-y-5">
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Étudiant</label>
+        <select
+          formControlName="student"
+          class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"
+        >
+          <ng-container *ngFor="let student of data.students">
+            <option [value]="student._id">{{ student.name }}</option>
+          </ng-container>
+        </select>
+        <div
+          *ngIf="
+            examForm.get('student')?.invalid &&
+            (examForm.get('student')?.dirty || examForm.get('student')?.touched)
+          "
+          class="text-red-500 text-sm mt-2"
+        >
+          <div *ngIf="examForm.get('student')?.errors?.['required']">
+            Ce champ est obligatoire.
+          </div>
+        </div>
+      </div>
+
+      <!-- Date -->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Date</label>
+        <input
+          type="date"
+          formControlName="examDate"
+          class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"
+        />
+        <div
+          *ngIf="
+            examForm.get('examDate')?.invalid &&
+            (examForm.get('examDate')?.dirty ||
+              examForm.get('examDate')?.touched)
+          "
+          class="text-red-500 text-sm mt-2"
+        >
+          <div *ngIf="examForm.get('examDate')?.errors?.['required']">
+            Ce champ est obligatoire.
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Heure</label>
+        <input
+          type="time"
+          formControlName="examTime"
+          class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"
+        />
+        <div
+          *ngIf="
+            examForm.get('examTime')?.invalid &&
+            (examForm.get('examTime')?.dirty ||
+              examForm.get('examTime')?.touched)
+          "
+          class="text-red-500 text-sm mt-2"
+        >
+          <div *ngIf="examForm.get('examTime')?.errors?.['required']">
+            Ce champ est obligatoire.
+          </div>
+        </div>
+      </div>
+
+      <!-- Lieu -->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Lieu</label>
+        <input
+          type="text"
+          formControlName="examPlace"
+          class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"
+        />
+      </div>
+
+      <!-- Statut -->
+      <div>
+        <label class="block text-gray-700 font-medium mb-1">Statut</label>
+        <select
+          formControlName="status"
+          class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500"
+        >
+          <option [value]="status.CONFIRMED">Confirmé</option>
+          <option [value]="status.TO_ORGANIZE">À organiser</option>
+          <option [value]="status.CANCELED">Annulé</option>
+          <option [value]="status.SEARCHING_PLACE">
+            En recherche de place
+          </option>
+        </select>
+        <div
+          *ngIf="
+            examForm.get('status')?.invalid &&
+            (examForm.get('status')?.dirty || examForm.get('status')?.touched)
+          "
+          class="text-red-500 text-sm mt-2"
+        >
+          <div *ngIf="examForm.get('status')?.errors?.['required']">
+            Ce champ est obligatoire.
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-4">
+        <button
+          type="submit"
+          class="w-full bg-orange-500 text-white font-semibold py-2 rounded-lg hover:bg-orange-600 transition disabled:opacity-50 disabled:cursor-not-allowed"
+          (click)="submitForm()"
+        >
+          {{ data.examData?._id ? "Mettre à jour" : "Ajouter l'examen" }}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

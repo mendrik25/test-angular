@@ -1,0 +1,604 @@
+2025-10-02T18:34:14.206Z - [31merror[39m: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m20[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                   ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m34[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                 ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m49[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                                ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m          ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m25[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                        ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m40[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                       ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m20[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                   ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m34[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                 ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m49[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                                ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m          ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m25[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                        ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m40[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                       ~~~~[0m
+
+    at createTSError (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1706:10
+    at Object.require.extensions.<computed> [as .ts] (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-02T18:34:56.857Z - [31merror[39m: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m20[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                   ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m34[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                 ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m49[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                                ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m          ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m25[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                        ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m40[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                       ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m20[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                   ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m34[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                 ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m49[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                                ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m          ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m25[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                        ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m40[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                       ~~~~[0m
+
+    at createTSError (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1706:10
+    at Object.require.extensions.<computed> [as .ts] (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-02T18:35:18.763Z - [31merror[39m: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m20[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                   ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m34[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                 ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m49[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                                ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m          ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m25[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                        ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m40[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                       ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m20[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                   ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m34[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                 ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m49[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                                ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m          ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m25[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                        ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m40[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                       ~~~~[0m
+
+    at createTSError (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1706:10
+    at Object.require.extensions.<computed> [as .ts] (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-02T18:40:19.986Z - [31merror[39m: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m20[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                   ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m34[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                 ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m49[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                                ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m          ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m25[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                        ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m40[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                       ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m9[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m9[0m   create(req: Request, res: Response, next: NextFunction): void {
+[7m [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m12[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m12[0m   delete(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m         ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m24[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                       ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m15[0m:[93m39[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m15[0m   update(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                      ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m20[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                   ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m34[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                 ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m18[0m:[93m49[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m18[0m   getPaginatedList(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                                ~~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m11[0m - [91merror[0m[90m TS6133: [0m'req' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m          ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m25[0m - [91merror[0m[90m TS6133: [0m'res' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                        ~~~[0m
+[96msrc/student/student.controller.ts[0m:[93m21[0m:[93m40[0m - [91merror[0m[90m TS6133: [0m'next' is declared but its value is never read.
+
+[7m21[0m   getById(req: Request, res: Response, next: NextFunction): void {
+[7m  [0m [91m                                       ~~~~[0m
+
+    at createTSError (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1706:10
+    at Object.require.extensions.<computed> [as .ts] (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-02T18:41:50.236Z - [31merror[39m: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/student/student.service.ts[0m:[93m6[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'item' is declared but its value is never read.
+
+[7m6[0m   create(item: Student): Promise<Student> {
+[7m [0m [91m         ~~~~[0m
+[96msrc/student/student.service.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'id' is declared but its value is never read.
+
+[7m9[0m   delete(id: string): Promise<boolean> {
+[7m [0m [91m         ~~[0m
+[96msrc/student/student.service.ts[0m:[93m12[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'id' is declared but its value is never read.
+
+[7m12[0m   update(id: string, item: Student): Promise<Student | null> {
+[7m  [0m [91m         ~~[0m
+[96msrc/student/student.service.ts[0m:[93m12[0m:[93m22[0m - [91merror[0m[90m TS6133: [0m'item' is declared but its value is never read.
+
+[7m12[0m   update(id: string, item: Student): Promise<Student | null> {
+[7m  [0m [91m                     ~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/student/student.service.ts[0m:[93m6[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'item' is declared but its value is never read.
+
+[7m6[0m   create(item: Student): Promise<Student> {
+[7m [0m [91m         ~~~~[0m
+[96msrc/student/student.service.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'id' is declared but its value is never read.
+
+[7m9[0m   delete(id: string): Promise<boolean> {
+[7m [0m [91m         ~~[0m
+[96msrc/student/student.service.ts[0m:[93m12[0m:[93m10[0m - [91merror[0m[90m TS6133: [0m'id' is declared but its value is never read.
+
+[7m12[0m   update(id: string, item: Student): Promise<Student | null> {
+[7m  [0m [91m         ~~[0m
+[96msrc/student/student.service.ts[0m:[93m12[0m:[93m22[0m - [91merror[0m[90m TS6133: [0m'item' is declared but its value is never read.
+
+[7m12[0m   update(id: string, item: Student): Promise<Student | null> {
+[7m  [0m [91m                     ~~~~[0m
+
+    at createTSError (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1706:10
+    at Object.require.extensions.<computed> [as .ts] (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-03T14:50:11.309Z - [31merror[39m: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/exam/exam.service.ts[0m:[93m9[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'execPopulate' does not exist on type 'Promise<Omit<ExamDocument, never>>'.
+
+[7m9[0m     await createdExam.populate("student").execPopulate();
+[7m [0m [91m                                          ~~~~~~~~~~~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/exam/exam.service.ts[0m:[93m9[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'execPopulate' does not exist on type 'Promise<Omit<ExamDocument, never>>'.
+
+[7m9[0m     await createdExam.populate("student").execPopulate();
+[7m [0m [91m                                          ~~~~~~~~~~~~[0m
+
+    at createTSError (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:859:12)
+    at reportTSError (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:863:19)
+    at getOutput (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1077:36)
+    at Object.compile (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1433:41)
+    at Module.m._compile (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1706:10
+    at Object.require.extensions.<computed> [as .ts] (/Users/mendrika/WORKS/Test Angular/backend/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)

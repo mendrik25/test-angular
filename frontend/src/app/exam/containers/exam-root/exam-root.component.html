@@ -1,0 +1,8 @@
+<div class="min-h-screen py-10 px-4">
+  <app-exam-stat [examStats]="examStatistics()"></app-exam-stat>
+  <app-exam-list
+    [exams]="exams()"
+    [formData]="formData()"
+    (saveExam)="handleSave($event)"
+  ></app-exam-list>
+</div>

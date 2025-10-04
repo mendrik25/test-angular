@@ -1,0 +1,22 @@
+[
+  {
+    "_id": { "$oid": "6512bd43d9caa6e02c990b0a" },
+    "name": "Alice Dupont"
+  },
+  {
+    "_id": { "$oid": "6512bd43d9caa6e02c990b0b" },
+    "name": "Mohamed Karim"
+  },
+  {
+    "_id": { "$oid": "6512bd43d9caa6e02c990b0c" },
+    "name": "Sophie Martin"
+  },
+  {
+    "_id": { "$oid": "6512bd43d9caa6e02c990b0d" },
+    "name": "Jean-Pierre Lambert"
+  },
+  {
+    "_id": { "$oid": "6512bd43d9caa6e02c990b0e" },
+    "name": "Fatima Zahra"
+  }
+]

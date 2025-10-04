@@ -1,0 +1,14 @@
+[
+  {
+    "_id": {
+      "$oid": "b99b48b59bfdd8de4de021ad"
+    },
+    "firstname": "Mendrika",
+    "lastname": "RAKOTOVAOMILIJAONA",
+    "login": "admin@admin.com",
+    "password": "$2a$10$w9.rkx4UJdy3wGXXFxnl6OfZnWsGGw8WbUtq/RGJ3wYID5NZBi5t.",
+    "role": {
+      "$oid": "b37046e3aaad6eafab34a058"
+    }
+  }
+]

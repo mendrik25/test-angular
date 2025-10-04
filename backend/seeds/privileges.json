@@ -1,0 +1,30 @@
+[
+  {
+    "_id": {
+      "$oid": "01fe45d49926fbf44d633884"
+    },
+    "name": "[User] Add User",
+    "category": "[Category] User"
+  },
+  {
+    "_id": {
+      "$oid": "0a9f4f99870861161fda3230"
+    },
+    "name": "[User] Edit User",
+    "category": "[Category] User"
+  },
+  {
+    "_id": {
+      "$oid": "244a4c08ab728642188bb036"
+    },
+    "name": "[User] Delete User",
+    "category": "[Category] User"
+  },
+  {
+    "_id": {
+      "$oid": "2a9b421b8027a19603163556"
+    },
+    "name": "[User] View Users",
+    "category": "[Category] User"
+  }
+]

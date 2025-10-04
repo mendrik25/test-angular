@@ -1,0 +1,83 @@
+<div class="min-h-screen py-10 px-4">
+  <div class="max-w-6xl mx-auto">
+    <!-- Titre + bouton -->
+    <div class="flex items-center justify-between mb-6">
+      <div>
+        <h1 class="text-2xl font-bold">Mes examens</h1>
+        <p class="text-gray-600 text-sm">
+          {{ incomingExams() }} examens à venir
+        </p>
+      </div>
+      <button
+        class="bg-orange-500 text-white px-5 py-2 rounded-lg hover:bg-orange-600 transition"
+        (click)="openExamForm()"
+      >
+        Organiser un examen
+      </button>
+    </div>
+
+    <!-- Liste -->
+    <div class="space-y-1">
+      <div
+        *ngFor="let exam of exams()"
+        class="flex items-center justify-between bg-white border border-gray-200 rounded-xl px-6 py-4 cursor-pointer"
+        (click)="openExamForm(exam)"
+      >
+        <div class="flex-1 flex items-center gap-2">
+          <span class="material-symbols-outlined"> person </span
+          >{{ exam.student.name }}
+        </div>
+        <div class="flex-1 text-gray-600 flex items-center gap-2">
+          <span class="material-symbols-outlined"> location_on </span
+          >{{ exam.examPlace }}
+        </div>
+        <div class="flex-1 text-gray-600 flex items-center gap-2">
+          <span class="material-symbols-outlined"> date_range </span
+          >{{ exam.examDate | date : "dd/MM/yyyy" }}
+        </div>
+        <div class="flex-1 text-gray-600 flex items-center gap-2">
+          <span class="material-symbols-outlined">
+            nest_clock_farsight_analog </span
+          >{{ exam.examTime }}
+        </div>
+        <div class="flex-1">
+          <div
+            class="text-sm font-medium px-4 py-1 flex justify-self-start items-center gap-2 rounded-full"
+            [ngClass]="{
+              'bg-green-100 text-green-700': exam.status === status.CONFIRMED,
+              'bg-orange-100 text-orange-700':
+                exam.status === status.TO_ORGANIZE,
+              'bg-red-100 text-red-700': exam.status === status.CANCELED,
+              'bg-gray-100 text-gray-700':
+                exam.status === status.SEARCHING_PLACE
+            }"
+          >
+            <span
+              class="material-symbols-outlined text-base"
+              *ngIf="exam.status === status.CONFIRMED"
+              >check</span
+            >
+            <span
+              class="material-symbols-outlined text-base"
+              *ngIf="exam.status === status.CANCELED"
+              >close</span
+            >
+            <span
+              class="material-symbols-outlined text-base"
+              *ngIf="exam.status === status.SEARCHING_PLACE"
+            >
+              hourglass_top
+            </span>
+            <span
+              class="material-symbols-outlined text-base"
+              *ngIf="exam.status === status.TO_ORGANIZE"
+            >
+              newsstand
+            </span>
+            {{ exam.status }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
