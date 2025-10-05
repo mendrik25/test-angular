@@ -1,3 +1,8 @@
 {
-  "undefined": "mongodb://localhost:27017/test-angular"
+  "development": {
+    "MONGODB_URI": "mongodb://mongodb:27017/test-angular"
+  },
+  "production": {
+    "MONGODB_URI": "mongodb://mongodb:27017/test-angular-prod"
+  }
 }

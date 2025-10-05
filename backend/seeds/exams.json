@@ -1,41 +1,41 @@
 [
   {
     "_id": { "$oid": "6512be43d9caa6e02c990b10" },
-    "student": { "$oid": "6512bd43d9caa6e02c990b0a" },
+    "student": "6512bd43d9caa6e02c990b0a",
     "examPlace": "Salle A101",
-    "examDate": { "$date": "2025-10-10T08:00:00Z" },
+    "examDate": "2025-10-10T08:00:00Z",
     "examTime": "08:00",
     "status": "Confirmé"
   },
   {
     "_id": { "$oid": "6512be43d9caa6e02c990b11" },
-    "student": { "$oid": "6512bd43d9caa6e02c990b0c" },
+    "student": "6512bd43d9caa6e02c990b0c",
     "examPlace": "Salle B202",
-    "examDate": { "$date": "2025-10-11T14:00:00Z" },
+    "examDate": "2025-10-11T14:00:00Z",
     "examTime": "14:00",
     "status": "À organiser"
   },
   {
     "_id": { "$oid": "6512be43d9caa6e02c990b12" },
-    "student": { "$oid": "6512bd43d9caa6e02c990b0e" },
+    "student": "6512bd43d9caa6e02c990b0e",
     "examPlace": "Salle C303",
-    "examDate": { "$date": "2025-10-12T09:00:00Z" },
+    "examDate": "2025-10-12T09:00:00Z",
     "examTime": "09:00",
     "status": "Annulé"
   },
   {
     "_id": { "$oid": "6512be43d9caa6e02c990b13" },
-    "student": { "$oid": "6512bd43d9caa6e02c990b0b" },
+    "student": "6512bd43d9caa6e02c990b0b",
     "examPlace": "Salle D404",
-    "examDate": { "$date": "2025-10-13T13:00:00Z" },
+    "examDate": "2025-10-13T13:00:00Z",
     "examTime": "13:00",
     "status": "En recherche de place"
   },
   {
     "_id": { "$oid": "6512be43d9caa6e02c990b14" },
-    "student": { "$oid": "6512bd43d9caa6e02c990b0d" },
+    "student": "6512bd43d9caa6e02c990b0d",
     "examPlace": "Salle E505",
-    "examDate": { "$date": "2025-10-14T10:00:00Z" },
+    "examDate": "2025-10-14T10:00:00Z",
     "examTime": "10:00",
     "status": "Confirmé"
   }
